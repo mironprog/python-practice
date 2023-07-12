@@ -5,7 +5,7 @@ choices = ['rock', 'paper', 'scissors']
 player_choice = None
 
 while player_choice not in choices:
-    player_choice = input("Write your choice:")
+    player_choice = input("Write your choice:").lower()
 
 print("The player chosed: "+str(player_choice))
 
